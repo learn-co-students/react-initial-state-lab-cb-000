@@ -1,9 +1,9 @@
 import React from 'react';
 
 class ImageSlider extends React.Component {
-  construtor() {
+  constructor() {
     super();
-    
+
     this.state = {
       currentSlideIndex: 0
     }
@@ -11,7 +11,7 @@ class ImageSlider extends React.Component {
 
   render() {
     return (
-      "I am on slide " + this.state.curretSlideIndex
+      <h1>I am on slide {this.state.currentSlideIndex}</h1>
     )
   } // render() --
 
